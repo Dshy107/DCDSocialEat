@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="8b389dec-f542-47ca-8bb5-5cad8936e510" name="UMLClassDiagram1" linkedPackageId="95200313-623d-479e-af7b-cf8c1209fd46" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="93de455e-4512-424e-8f09-1b2d78c3d7f6">
+      <profileInstance Id="3e7a7ed5-520a-4627-bf2b-ae8fcb64a4f5" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="cac16ac1-28ed-4b8e-988d-d0dffde08633">
+      <profileInstance Id="c09818b9-2b00-47dd-a3da-ade241802797" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="dab89f97-241d-4115-9d79-8e33a2640108" name="View">
+        <elementDefinition Id="a8642a2f-291a-4d66-baa8-9b7eb4ca0d17" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="74ef6b24-0532-42ad-8a49-fc6b42df9829" name="MainPage" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="d801cf38-1dd1-47b5-91a4-a67f27cc2518" />
+              <targetEnds>
+                <association Id="10e50b45-b71e-4915-88ea-7a70a039cfa7" isDerived="false" sourceEndRoleName="MainPage" targetEndRoleName="MainViewModel" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="138d3ed2-452e-44b5-89a8-f7b31e366793" LastKnownName="MainViewModel" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="1e10d062-459c-46e6-9ab5-ddc85d0fe16b" name="MainPage" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="5dc9e7c0-9215-46b7-b1f3-945734c4ff23" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="2fd1f295-1e44-42ab-964b-53727a7cda25" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="84dbe7ae-324b-4f59-a29d-90c45d8e0035" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="456f6ca9-3a13-4866-8041-70d450a2b98f" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="c70536d5-c87b-4b3a-b8da-84a890f241f3" name="Planlaegning" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="b1b7fc22-92e0-4c5b-ba81-724708175f07" />
+              <targetEnds>
+                <association Id="0e6c6623-76e7-4583-91dc-72926aa33ef4" isDerived="false" sourceEndRoleName="Planlaegning" targetEndRoleName="MainViewModel" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="138d3ed2-452e-44b5-89a8-f7b31e366793" LastKnownName="MainViewModel" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="773592a7-8d0d-455b-be83-ada87768a3ab" name="Planlaegning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="133ede4d-8f68-4110-bc60-2085736b862e" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="6b3ecd01-2a7b-485b-99ce-b44b74e23f3e" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="194882d3-debb-427f-8060-486cec14d346" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="5b6c355a-f727-4b22-888b-17d118612cb2" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="7cfcdb81-79bb-492d-bc1b-b0e827e093ed" name="Tilmeld" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="8d2865bd-aa81-4908-9fbe-e4f6f450e213" />
+              <targetEnds>
+                <association Id="48a886e8-cb59-4824-811f-84cefadb1dfb" isDerived="false" sourceEndRoleName="Tilmeld" targetEndRoleName="MainViewModel" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="138d3ed2-452e-44b5-89a8-f7b31e366793" LastKnownName="MainViewModel" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="12ff2586-053d-4b97-af37-6a887460fef5" name="Tilmeld" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="ec874264-2e53-4598-9c36-5451c39abb46" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="4b9523b4-56bf-4920-ae19-c1dcf026e975" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="141dfb25-3f45-43f4-b570-2753fae8251a" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="593323be-0346-4f44-bf15-c18bf7377b67" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="2f3b9eaa-9863-4d36-9308-f1da421244e3" name="Afregn" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="ec03a459-152f-465f-9513-5da898337fc4" />
+              <targetEnds>
+                <association Id="779e2921-0ef0-45e8-af35-d54f53a22f88" isDerived="false" sourceEndRoleName="Afregn" targetEndRoleName="MainViewModel" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="138d3ed2-452e-44b5-89a8-f7b31e366793" LastKnownName="MainViewModel" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="b5b5f497-c67a-4751-9e10-526bb906b61f" name="Afregn" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="ff65dadb-04d0-4fbd-b54c-428c37ddf399" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="0437776a-3a74-45e8-b872-8b6a352e2cdb" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="5bd6aa2e-5a76-4207-9061-fcf16f6f9bf2" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="eaafcde1-967b-4daa-a954-a9836637964f" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="e2af1e28-d9fb-4bac-9967-4566082d2d76" name="ViewModel">
+        <elementDefinition Id="6835b303-5dae-43be-a867-1a67d4c1cd88" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="138d3ed2-452e-44b5-89a8-f7b31e366793" name="MainViewModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="37fec75d-4117-482e-9e85-ecd22ee782f5" />
+              <suppliersInternal>
+                <dependency Id="6a845954-dea0-4d10-ad7d-b2b5bba78896">
+                  <interfaceMoniker Id="0ae3170d-88c7-4bd6-9250-490166766e53" LastKnownName="INotifyPropertyChanged" />
+                  <elementDefinition Id="3d1551b4-b048-4175-94a2-490dcc1c470a" />
+                </dependency>
+              </suppliersInternal>
+              <targetEnds>
+                <association Id="cacdc895-ab38-46c6-827e-8347a7e097d3" isDerived="false" sourceEndRoleName="MainViewModel" targetEndRoleName="Tilmeldliste" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="ad3931c9-7481-44a0-ba7e-c5b1412032ad" LastKnownName="Tilmeldliste" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="3054519c-f0ec-4c3d-8e37-78623fe000e5" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="47b20a4f-75aa-40e7-9434-c0ede10097a6" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="6948569e-7ff0-412f-a29a-1af9a63ca222" name="Tilmeldliste" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="ab473717-5d15-4516-9a64-94861a44f983" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="c4374dd9-cf80-4e6e-9ce0-0255ab66ea89" />
+                </association>
+                <association Id="29ed5784-1e16-4f18-ad99-23e7bf3d916a" isDerived="false" sourceEndRoleName="MainViewModel" targetEndRoleName="Beboer" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="11e6b4d5-2138-4c00-a4e3-4b29faf8c5dc" LastKnownName="Beboer" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="d3d5fe3b-61b6-4f99-8337-298b183c4e47" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="983fe7d5-051e-4298-a5f2-7b6e118cba0b" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="a1f7fabe-8c95-4485-bf0c-ccb324fa52a5" name="Beboer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="2c950e38-f6fa-46d9-99f0-f91404b4a640" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="fcc2b726-f0fc-40e7-a96c-beac908c7a8a" />
+                </association>
+                <association Id="83552200-8322-4745-a8da-d0d239f24490" isDerived="false" sourceEndRoleName="MainViewModel" targetEndRoleName="Planlaegliste" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="dd9c8d6d-67d0-4b42-ab8f-2e882aa424cc" LastKnownName="Planlaegliste" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="15213f1b-4327-47b8-81eb-0d4df32c4271" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="31addaf7-445a-4bd6-94de-85b73f353d6d" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="4389828a-2932-4515-a6cf-d9ee2c5196d8" name="Planlaegliste" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="45598e59-2534-4a09-a803-cb9d4bbda418" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="c9eb39f7-edc2-4374-af7b-afaf61fc8768" />
+                </association>
+                <association Id="7367efe9-0df1-48f6-82e4-cdd0fb93b93e" isDerived="false" sourceEndRoleName="MainViewModel" targetEndRoleName="Planlaeg" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="a64fb806-8f7a-4423-ac30-8876f56dede7" LastKnownName="Planlaeg" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="6f937887-fa82-49b5-bed6-3a40a665cce4" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="0f8f3fc5-1257-4492-9451-6690a2d49453" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="7b0e308c-d8a4-40f1-b8de-0e47fb7a2434" name="Planlaeg" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="de125c44-e752-44de-90e3-d4e118844f45" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="a109c4e3-3a36-47ca-9beb-1934de8ff709" />
+                </association>
+                <association Id="15f88cd4-f6ba-40ca-b449-c802d9efa892" isDerived="false" sourceEndRoleName="MainViewModel" targetEndRoleName="Afregning" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="3ca65d45-d596-4f24-ba50-520b1d4d1a6c" LastKnownName="Afregning" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="74a982fe-dc7a-46ed-a317-30dd4c9255ba" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="4f7e25d5-203d-4f91-be3a-6bfd29738d46" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="89b4c5ac-7258-4843-b701-586e328f7ef8" name="Afregning" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="dc36fc7a-cfbb-4de1-8766-737bd1f97a49" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="7964a910-a1a3-450e-b409-0b927c4c6951" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="7c53db83-e424-4019-af41-ae354ef8af98" name="Model">
+        <elementDefinition Id="f35f1f9f-8e22-4f8a-9b85-9ea963bbf9e7" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="11e6b4d5-2138-4c00-a4e3-4b29faf8c5dc" name="Beboer" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="9d2b5726-8bd5-4aaf-8eba-18ce3b9afccc" />
+              <ownedAttributesInternal>
+                <property Id="1a9ca148-d0ae-47df-978a-de4969d8b582" name="HouseNr" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9f0922d8-f08a-4d5e-be3d-71d22c09450b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="913118e0-3d44-4311-bba3-771d03055c13" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+                <property Id="a4b3df12-de08-4dd7-b319-034cc642e471" name="NumberKids" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d2965d0d-5c46-4ca9-a6d8-0301503d8059" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6bb78474-b47a-4b52-b6a1-f0210fab6ed3" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+                <property Id="df5cb277-de41-4f05-9e8d-6895b834cbbb" name="NumberAdult" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="68e773f6-099f-4881-9682-d9d9a42160ba" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="def903be-56ed-4ee5-9290-fc1f1f6ae931" LastKnownName="int" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="dd9c8d6d-67d0-4b42-ab8f-2e882aa424cc" name="Planlaegliste" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="ba9651c2-7423-4c71-8324-02a3d498f13b" />
+              <targetEnds>
+                <association Id="70c958c2-f974-4ccc-ac53-99f473888ea8" isDerived="false" sourceEndRoleName="Planlaegliste" targetEndRoleName="Planlaeg" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="a64fb806-8f7a-4423-ac30-8876f56dede7" LastKnownName="Planlaeg" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="bd8c8a53-e6b8-4aa1-a235-60996b0d6b5f" name="Planlaegliste" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="164f715a-67d6-4984-bb91-4015462ec78d" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="01ce244e-f8d0-48ff-a0f4-575157ee265b" name="Planlaeg" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <elementDefinition Id="42b38b82-2c37-42fa-9543-c775e935cf86" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="aa89a268-4188-4e66-94d1-20b5690a6b72" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="a64fb806-8f7a-4423-ac30-8876f56dede7" name="Planlaeg" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="2550998d-9051-49bf-b9d8-5f89ef1d6325" />
+              <ownedAttributesInternal>
+                <property Id="58fb3aee-8c4a-4180-9b81-c41b00c38cde" name="Menu" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="870a18a3-768d-4464-93f6-c7ea6879afe0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8ce71e27-0cf5-456d-be31-33ca6dbc39cf" LastKnownName="String" />
+                  </type_NamedElement>
+                </property>
+                <property Id="2e452e55-9476-4f44-b52e-924472220490" name="HeadChef" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fa53d649-d318-41e9-9819-b6ed42534c8f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8ce71e27-0cf5-456d-be31-33ca6dbc39cf" LastKnownName="String" />
+                  </type_NamedElement>
+                </property>
+                <property Id="4127bb92-b88f-46f7-8bec-153218986994" name="Helper" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4661c6b0-a588-474b-b692-4dd1b3646bf9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8ce71e27-0cf5-456d-be31-33ca6dbc39cf" LastKnownName="String" />
+                  </type_NamedElement>
+                </property>
+                <property Id="b0959ab0-f24b-4749-a45c-7bedb62af36d" name="Cleaner" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b8225a0d-b3b0-4b8e-a6bb-646627367f74" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8ce71e27-0cf5-456d-be31-33ca6dbc39cf" LastKnownName="String" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="ad3931c9-7481-44a0-ba7e-c5b1412032ad" name="Tilmeldliste" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="37c9f5c5-00dd-456c-94b3-5156ddd584f0" />
+              <targetEnds>
+                <association Id="ab4414eb-4667-4bca-b8cc-57c89902307f" isDerived="false" sourceEndRoleName="Tilmeldliste" targetEndRoleName="Beboer" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="11e6b4d5-2138-4c00-a4e3-4b29faf8c5dc" LastKnownName="Beboer" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="d3ca8063-12ff-4dbd-a93f-8277ee69952e" name="Tilmeldliste" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="ea892c9f-a361-42b9-8b58-40e04563b9fc" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="e76d9951-75b7-4650-8160-aaec6519c4bf" name="Beboer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <elementDefinition Id="f6b9ba14-e31c-4e38-a59b-7b857e846729" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="043bb88d-669c-4497-a3da-44d6cb664b24" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="3ca65d45-d596-4f24-ba50-520b1d4d1a6c" name="Afregning" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="884be558-79a3-44f5-b889-ad5754ea7924" />
+              <ownedAttributesInternal>
+                <property Id="8512da07-ef94-44ec-a793-e707464b184e" name="Prices" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a4a35b1f-1d7e-4242-97c8-b970197b4c39" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3a4ed862-ccb1-4fba-85ae-c64ebce53247" LastKnownName="Double" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="0ae3170d-88c7-4bd6-9250-490166766e53" name="INotifyPropertyChanged" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="119d968e-b51f-4362-8f79-d13832b426ec" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="6bb78474-b47a-4b52-b6a1-f0210fab6ed3" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7cbcf065-141f-4b04-86c0-5369ec01432b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="def903be-56ed-4ee5-9290-fc1f1f6ae931" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7cbcf065-141f-4b04-86c0-5369ec01432b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="913118e0-3d44-4311-bba3-771d03055c13" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="7cbcf065-141f-4b04-86c0-5369ec01432b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3a4ed862-ccb1-4fba-85ae-c64ebce53247" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Double">
+        <elementDefinition Id="e4ee05c1-4bb2-483e-a696-a9fe91e7e530" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8ce71e27-0cf5-456d-be31-33ca6dbc39cf" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="95200313-623d-479e-af7b-cf8c1209fd46" name="DCDSocialEat">
+    <elementDefinition Id="faf3bef3-27a3-40e6-8fd4-af0ae1090251" />
+  </package>
+</logicalClassDesignerModel>
