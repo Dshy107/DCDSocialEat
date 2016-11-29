@@ -119,7 +119,7 @@
           </nestedChildShapes>
         </classShape>
         <classShape Id="16bd264b-3df4-4df6-81f4-1ec302d814ed" absoluteBounds="6.75, 6.75, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
-          <classMoniker Id="ad3931c9-7481-44a0-ba7e-c5b1412032ad" LastKnownName="Tilmeldliste" />
+          <classMoniker Id="ad3931c9-7481-44a0-ba7e-c5b1412032ad" LastKnownName="Tilmeldliste " />
           <nestedChildShapes>
             <AttributeElementListCompartment Id="c225e7b9-36b7-4c6b-ab31-3790291a6193" absoluteBounds="6.765, 7.14, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
             <OperationElementListCompartment Id="ed8c57bb-4483-452e-9b5f-03e4e3418feb" absoluteBounds="6.765, 7.35117186754942, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />

@@ -205,7 +205,7 @@
     <packageHasNamedElement>
       <class
         Id="37c9f5c5-00dd-456c-94b3-5156ddd584f0"
-        name="Tilmeldliste"
+        name="Tilmeldliste "
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">

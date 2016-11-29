@@ -129,7 +129,7 @@
               </suppliersInternal>
               <targetEnds>
                 <association Id="cacdc895-ab38-46c6-827e-8347a7e097d3" isDerived="false" sourceEndRoleName="MainViewModel" targetEndRoleName="Tilmeldliste" isLeaf="false" isAbstract="false">
-                  <classMoniker Id="ad3931c9-7481-44a0-ba7e-c5b1412032ad" LastKnownName="Tilmeldliste" />
+                  <classMoniker Id="ad3931c9-7481-44a0-ba7e-c5b1412032ad" LastKnownName="Tilmeldliste " />
                   <relationshipOwnedElementsInternal>
                     <associationHasOwnedEnds>
                       <memberEnd Id="3054519c-f0ec-4c3d-8e37-78623fe000e5" name="MainViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -298,7 +298,7 @@
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="ad3931c9-7481-44a0-ba7e-c5b1412032ad" name="Tilmeldliste" isAbstract="false" isLeaf="false" isActiveClass="false">
+            <class Id="ad3931c9-7481-44a0-ba7e-c5b1412032ad" name="Tilmeldliste " isAbstract="false" isLeaf="false" isActiveClass="false">
               <elementDefinition Id="37c9f5c5-00dd-456c-94b3-5156ddd584f0" />
               <targetEnds>
                 <association Id="ab4414eb-4667-4bca-b8cc-57c89902307f" isDerived="false" sourceEndRoleName="Tilmeldliste" targetEndRoleName="Beboer" isLeaf="false" isAbstract="false">
